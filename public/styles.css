@@ -1,0 +1,51 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff5f8;
+    color: #49313d;
+}
+
+header {
+    background-color: #b85c83;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+}
+
+main {
+    max-width: 900px;
+    margin: 35px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.modulos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.tarjeta {
+    background-color: white;
+    border: 1px solid #efd0de;
+    border-radius: 12px;
+    padding: 25px 15px;
+    font-weight: bold;
+    box-shadow: 0 3px 8px #00000010;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #79576a;
+}
